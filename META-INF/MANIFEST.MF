@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SampleTest
+Bundle-SymbolicName: sampleTest;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: sampletest.Activator
+Bundle-Vendor: Remain Software
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Automatic-Module-Name: sampleTest
+Bundle-ActivationPolicy: lazy
